@@ -19,7 +19,7 @@ $ git clone https://github.com/guicamargo19/agenda.git
 $ cd agenda
 ```
 
-Crie o ambiente virtual para instalar as dependências e ative-o:
+Crie o ambiente virtual para instalar as dependências e ative-o (Comando para MacOS):
 
 ```sh
 $ python -m venv venv
@@ -40,7 +40,7 @@ Uma vez vez que o pip terminou de fazer o download das dependências:
 (env)$ python manage.py runserver
 ```
 
-E navegue até http://127.0.0.1:8000/gocardless/
+E navegue até http://127.0.0.1:8000 ou http://localhost:8000
 
 ## 🛠️Ferramentas utilizadas para construção do projeto
 
