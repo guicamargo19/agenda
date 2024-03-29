@@ -1,10 +1,12 @@
 # Agenda
 
-Projeto Agenda desenvolvido em Django com Python. Agenda permite inserir e atualizar usuários gestores na Agenda, 
-esses usuários podem criar contatos, mas podem alterar e deletar apenas contatos criados por eles mesmos.
-É possível visualizar os contatos da agenda sendo usuário ou não estando logado.
+<img src="https://servidor-estatico-tan.vercel.app/agenda.png">
 
-Projeto desenvolvido no curso de Python completo na Udemy pelo professor Luiz Otávio.
+Projeto Agenda desenvolvido em **Django** com **Python**. Agenda permite inserir e atualizar usuários gestores, esses
+usuários podem criar contatos, mas podem alterar e deletar apenas contatos criados por eles mesmos. É possível
+visualizar os contatos da agenda estando logado ou não.
+
+Projeto desenvolvido no curso de Python 3 completo na Udemy pelo professor Luiz Otávio Miranda.
 
 ## 🚀 Começando
 
@@ -42,7 +44,15 @@ Uma vez vez que o pip terminou de fazer o download das dependências:
 
 E navegue até http://127.0.0.1:8000 ou http://localhost:8000
 
-## 🛠️Ferramentas utilizadas para construção do projeto
+Caso encontre algum erro ou dificuldade ao rodar o servidor, tente fazer as migrações e coletar os arquivos estáticos:
+
+```sh 
+(env)$ python manage.py makemigrations
+(env)$ python manage.py migrate
+(env)$ python manage.py collectstatic
+```
+
+## 🛠️ Ferramentas utilizadas para construção do projeto
 
 * **HTML** - Linguagem de marcação utilizada na construção de páginas na Web.
 * **CSS** - Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web.

@@ -1,16 +1,16 @@
 :root {
     --spacing: 1.5rem;
-    --link-dark-color: rgb(0, 83, 134);
-    --link-light-color: rgb(156, 217, 255);
+    --link-dark-color: #07263c;
+    --link-light-color: #82ccdd;
     --clr-white: rgb(245, 245, 255);
-    --clr-black: rgb(0, 0, 30);
+    --clr-black: #07263c;
     --clr-light-gray: rgb(230, 230, 245);
     --clr-dark-shadow-5: rgba(0, 0, 10, 5%);
     --clr-dark-shadow-10: rgba(0, 0, 10, 10%);
     --clr-dark-shadow-20: rgba(0, 0, 10, 20%);
     --clr-light-shadow-5: rgba(200, 200, 255, 5%);
     --clr-light-shadow-10: rgba(200, 200, 255, 10%);
-    --clr-light-shadow-20: rgba(200, 200, 255, 20%);
+    --clr-light-shadow-20: rgba(200, 200, 255, 30%);
     --main-page-width: 120rem;
     --table-min-width: 60rem;
     --biggest-font-size: 5rem;
@@ -91,7 +91,7 @@
   .menu-link {
     display: block;
     padding: var(--spacing);
-    color: var(--link-light-color);
+    color: var(--clr-white);
     text-decoration: none;
     transition: background-color var(--transition-fast) ease-in-out;
     border-radius: var(--default-border-radius);
