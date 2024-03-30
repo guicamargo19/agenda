@@ -4,7 +4,7 @@
 
 ## Publicado
 
-[Agenda Django](http://34.125.82.43/)
+[Agenda Django](https://agenda.gtatelie.com.br/)
 
 Projeto Agenda desenvolvido em **Django** com **Python**. Agenda permite inserir e atualizar usuários gestores, esses
 usuários podem criar contatos, mas podem alterar e deletar apenas contatos criados por eles mesmos. É possível
