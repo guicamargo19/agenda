@@ -2,6 +2,10 @@
 
 <img src="https://servidor-estatico-tan.vercel.app/agenda.png">
 
+## Publicado
+
+[Agenda Django](http://34.125.82.43/)
+
 Projeto Agenda desenvolvido em **Django** com **Python**. Agenda permite inserir e atualizar usuários gestores, esses
 usuários podem criar contatos, mas podem alterar e deletar apenas contatos criados por eles mesmos. É possível
 visualizar os contatos da agenda estando logado ou não.
@@ -51,6 +55,11 @@ Caso encontre algum erro ou dificuldade ao rodar o servidor, tente fazer as migr
 (env)$ python manage.py migrate
 (env)$ python manage.py collectstatic
 ```
+
+**``project/local_settings.py``**
+
+Para Deploy da aplicação, o arquivo "local_settings_example.py" deve ser renomeado para "local_settings.py" e 
+preenchido com os dados desejados para o banco de dados PostgreSQL.
 
 ## 🛠️ Ferramentas utilizadas para construção do projeto
 
