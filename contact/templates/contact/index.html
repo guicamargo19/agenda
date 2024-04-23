@@ -27,7 +27,11 @@
                             </a>
                         </td>
                         <td class="table-cel">
+                            <a 
+                            class='table-link'
+                            href="{% url 'contact:contact' contact.id %}">
                             {{ contact.first_name }}
+                        </a>
                         </td>
                         <td class="table-cel">
                             {{ contact.last_name }}
